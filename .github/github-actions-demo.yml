@@ -1,0 +1,9 @@
+name : Pierwsze akcje
+on: [push]
+jobs:
+	Github-actions-demo:
+		runs-on: ubuntu-latest
+		steps:
+			-run: docker --version
+			-run: python --version
+	
